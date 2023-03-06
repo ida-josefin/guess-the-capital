@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background: #FCEDDA;
+}
+
+header {
+    background: #00008b;
+    padding: 20px;
+    color: #fff;
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+}
+
+main {
+    margin: auto;
+    padding: 40px;
+}
+
+#question button {
+    padding: 20px 30px;
+    background: #00008b;
+    border: none;
+    font-size: 22px;
+    color: #fff;
+    border-radius: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    transition: all .3s ease;
+    transform: scale(1.05);
+}
+
+.buttons {
+    display: block;
+    max-width: 600px;
+    margin: auto;
+}
+
+#result {
+    font-size: 20px;
+    padding: 30px 0;
+}
+
+#flagImg {
+    height: 100px;
+    margin: 10px 0 30px 0;
+}
+
+#play-again {
+    padding: 20px 30px;
+    border: none;
+    background: #00008b;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 40px;
+    margin: auto;
+}
+
+#question #restart {
+    background: transparent;
+    border: 1px solid #00008b;
+    color: #00008b;
+    width: auto;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+#stats {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
