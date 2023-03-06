@@ -227,10 +227,3 @@ async function fetchData(url) {
     }
     initializeGame();
 })();
-
-
-    
-
-
-
-
