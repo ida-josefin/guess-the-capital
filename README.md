@@ -1,4 +1,4 @@
-# Capital Guessing Game
+# 🌎 Capital Guessing Game 🌎
 Welcome to the Capital Guessing Game! In this game, you will be presented with a random country and three possible capital cities to choose from. Your goal is to correctly guess the capital city of the given country.
 
 ## How to Play
