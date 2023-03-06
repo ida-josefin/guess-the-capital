@@ -8,6 +8,6 @@ Welcome to the Capital Guessing Game! In this game, you will be presented with a
 3. If you guessed the correct capital, you will earn a point. If you guessed incorrectly, you will not earn a point and the correct answer will be displayed.
 4. The game consists of ten rounds. After ten rounds, your total score will be displayed.
 
-Scoring System
+## Scoring System
 * 1 point will be awarded for each correct answer.
 * There are a total of 10 rounds, so the maximum score possible is 10 points.
