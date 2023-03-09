@@ -151,7 +151,7 @@ async function fetchData(url) {
         const restartButton = document.getElementById('restart');
         restartButton.addEventListener('click', () => {
             score = 0;
-            guessCount = 0;
+            guessCount = 1;
             roundResultParagraph.innerText = '';
             usedCountries = [];
             showGameStats();
@@ -187,7 +187,7 @@ async function fetchData(url) {
             resultHeading.style.display = 'none';
 
             score = 0;
-            guessCount = 0;
+            guessCount = 1;
             usedCountries = [];
 
             for (index in alternativeButtons) {
