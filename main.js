@@ -140,7 +140,7 @@ async function fetchData(url) {
         } else {
             roundResultParagraph.innerText = `Wrong! The correct answer was ${capital}.`;
         }
-        if(guessCount === 10) {
+        if(guessCount === 11) {
             endGame();
         } else {
             newRound();
